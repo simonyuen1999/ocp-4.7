@@ -15,6 +15,8 @@ angular.module("app")
 		}
 	}
 
+    baseUrl='http://catalog-springboot-user11-catalog.apps.cluster-kpk2b.kpk2b.sandbox1043.opentlc.com/services/products';
+
 	factory.getProducts = function() {
 		var deferred = $q.defer();
         if (products) {
